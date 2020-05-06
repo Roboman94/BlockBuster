@@ -35,11 +35,5 @@ namespace BlockBuster
 
 
     }
-        public enum Genres
-        {
-            Horror =1,
-            Comedy =2,
-            Action =3,
-            Adventure =4
-        }
+        
 }
