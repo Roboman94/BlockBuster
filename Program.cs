@@ -51,7 +51,7 @@ namespace BlockBuster
                 VHSscenes.Add("Intro");
                 VHSscenes.Add("Middle");
                 VHSscenes.Add("End");
-                VHS v = new VHS("Lords of Dogtown", $"{Genres.Comedy}", 120, VHSscenes);
+                VHS v = new VHS("Lords of Dogtown", $"{Genres.Horror}", 120, VHSscenes);
                 v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
