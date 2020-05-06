@@ -62,7 +62,7 @@ namespace BlockBuster
                              
                             }
                         }
-                    }\
+                    }
                 }
                 Console.WriteLine("Watch another scene? (y/n)");
                 input = Console.ReadLine();
