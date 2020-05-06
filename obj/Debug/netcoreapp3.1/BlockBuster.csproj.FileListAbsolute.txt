@@ -1,0 +1,13 @@
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\bin\Debug\netcoreapp3.1\BlockBuster.exe
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\bin\Debug\netcoreapp3.1\BlockBuster.deps.json
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\bin\Debug\netcoreapp3.1\BlockBuster.runtimeconfig.json
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\bin\Debug\netcoreapp3.1\BlockBuster.runtimeconfig.dev.json
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\bin\Debug\netcoreapp3.1\BlockBuster.dll
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\bin\Debug\netcoreapp3.1\BlockBuster.pdb
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.csprojAssemblyReference.cache
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.csproj.CoreCompileInputs.cache
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.AssemblyInfoInputs.cache
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.AssemblyInfo.cs
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.dll
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.pdb
+C:\Users\kenda\source\repos\BlockBuster\BlockBuster\obj\Debug\netcoreapp3.1\BlockBuster.genruntimeconfig.cache
