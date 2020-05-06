@@ -22,7 +22,7 @@ namespace BlockBuster
                 VHSscenes.Add("Middle");
                 VHSscenes.Add("End");
                 VHS v = new VHS("TheSandlot", "Comedy", 120, VHSscenes);
-                Console.WriteLine($"You've selected: {v.Title}");
+                v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
                 if (input == "y")
@@ -39,7 +39,7 @@ namespace BlockBuster
                 VHSscenes.Add("Middle");
                 VHSscenes.Add("End");
                 VHS v = new VHS("Little Rascals", "Comedy", 120, VHSscenes);
-                Console.WriteLine($"You've selected: {v.Title}");
+                v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
                 if (input == "y")
@@ -54,7 +54,7 @@ namespace BlockBuster
                 VHSscenes.Add("Middle");
                 VHSscenes.Add("End");
                 VHS v = new VHS("Lords of Dogtown", "BioPic", 120, VHSscenes);
-                Console.WriteLine($"You've selected: {v.Title}");
+                v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
                 if (input == "y")
@@ -69,7 +69,7 @@ namespace BlockBuster
                 DVDscenes.Add("Middle");
                 DVDscenes.Add("End");
                 DVD v = new DVD("Holes", "Adventure", 120, DVDscenes);
-                Console.WriteLine($"You've selected: {v.Title}");
+                v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
                 if (input == "y")
@@ -84,7 +84,7 @@ namespace BlockBuster
                 DVDscenes.Add("Middle");
                 DVDscenes.Add("End");
                 DVD v = new DVD("Man of Steel", "Action", 120, DVDscenes);
-                Console.WriteLine($"You've selected: {v.Title}");
+                v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
                 if (input == "y")
@@ -99,7 +99,7 @@ namespace BlockBuster
                 DVDscenes.Add("Middle");
                 DVDscenes.Add("End");
                 DVD v = new DVD("Goonies", "Adventure", 110, DVDscenes);
-                Console.WriteLine($"You've selected: {v.Title}");
+                v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
                 if (input == "y")
