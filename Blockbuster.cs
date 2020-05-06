@@ -10,7 +10,7 @@ namespace BlockBuster
     class Movie
     {
         private string name;
-        private string genre;
+       
         private string type;
 
         public string Name
@@ -24,17 +24,7 @@ namespace BlockBuster
                 name = value;
             }
         }
-        public string Genre
-        {
-            get
-            {
-                return genre;
-            }
-            set
-            {
-                genre = value;
-            }
-        }
+      
         public string Type
         {
             get
@@ -51,15 +41,15 @@ namespace BlockBuster
         public Movie()
         {
             name = "default";
-            genre = "default";
+          
             type = "default";
 
         }
 
-        public Movie(string _name, string _genre, string _type)
+        public Movie(string _name,  string _type)
         {
             name = _name;
-            genre = _genre;
+          
             type = _type;
 
         }
@@ -67,16 +57,18 @@ namespace BlockBuster
         public static List<Movie> PrintMovies()
         {
             List<Movie> tasks = new List<Movie> {
-            new Movie("Sandlot", "Comedy", "DVD"),
-            new Movie("Little Rascals", "Comedy", "DVD"),
-            new Movie("Lords of Dogtown", "BioPic", "DVD"),
-            new Movie("Holes", "Adventure", "VHS"),
-            new Movie("Man of Steel", "Action", "VHS"),
-            new Movie("Goonies", "Adventure", "VHS"),
+            new Movie("Sandlot",  "DVD"),
+            new Movie("Little Rascals",  "DVD"),
+            new Movie("Lords of Dogtown",  "DVD"),
+            new Movie("Holes", "VHS"),
+            new Movie("Man of Steel",  "VHS"),
+            new Movie("Goonies",  "VHS"),
 
             };
             return tasks;
         }
+
+      
 
         public static string CheckOut()
         {

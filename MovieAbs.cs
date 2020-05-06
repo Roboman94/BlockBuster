@@ -20,8 +20,6 @@ namespace BlockBuster
 
         }
 
-
-
         public abstract void Play();
        
         public virtual void PrintInfo()

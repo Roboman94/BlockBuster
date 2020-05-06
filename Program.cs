@@ -9,8 +9,6 @@ namespace BlockBuster
         static void Main(string[] args)
         {
 
-
-
             Console.WriteLine("Welcome to GC Blockbuster!");
             string input = Movie.CheckOut();
 
@@ -21,7 +19,7 @@ namespace BlockBuster
                 VHSscenes.Add("Intro");
                 VHSscenes.Add("Middle");
                 VHSscenes.Add("End");
-                VHS v = new VHS("TheSandlot", "Comedy", 120, VHSscenes);
+                VHS v = new VHS("TheSandlot", $"{Genres.Comedy}", 120, VHSscenes);
                 v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
@@ -38,7 +36,7 @@ namespace BlockBuster
                 VHSscenes.Add("Intro");
                 VHSscenes.Add("Middle");
                 VHSscenes.Add("End");
-                VHS v = new VHS("Little Rascals", "Comedy", 120, VHSscenes);
+                VHS v = new VHS("Little Rascals", $"{Genres.Comedy}", 120, VHSscenes);
                 v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
@@ -53,7 +51,7 @@ namespace BlockBuster
                 VHSscenes.Add("Intro");
                 VHSscenes.Add("Middle");
                 VHSscenes.Add("End");
-                VHS v = new VHS("Lords of Dogtown", "BioPic", 120, VHSscenes);
+                VHS v = new VHS("Lords of Dogtown", $"{Genres.Comedy}", 120, VHSscenes);
                 v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
@@ -68,7 +66,7 @@ namespace BlockBuster
                 DVDscenes.Add("Intro");
                 DVDscenes.Add("Middle");
                 DVDscenes.Add("End");
-                DVD v = new DVD("Holes", "Adventure", 120, DVDscenes);
+                DVD v = new DVD("Holes", $"{Genres.Adventure}", 120, DVDscenes);
                 v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
@@ -83,7 +81,7 @@ namespace BlockBuster
                 DVDscenes.Add("Intro");
                 DVDscenes.Add("Middle");
                 DVDscenes.Add("End");
-                DVD v = new DVD("Man of Steel", "Action", 120, DVDscenes);
+                DVD v = new DVD("Man of Steel", $"{Genres.Action}", 120, DVDscenes);
                 v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
@@ -98,7 +96,7 @@ namespace BlockBuster
                 DVDscenes.Add("Intro");
                 DVDscenes.Add("Middle");
                 DVDscenes.Add("End");
-                DVD v = new DVD("Goonies", "Adventure", 110, DVDscenes);
+                DVD v = new DVD("Goonies", $"{Genres.Adventure}", 110, DVDscenes);
                 v.PrintInfo();
                 Console.WriteLine("Do you want to play? (y/n)");
                 input = Console.ReadLine();
@@ -109,9 +107,6 @@ namespace BlockBuster
                 }
             }
             #endregion
-
-           
-
         }
     }
 }
