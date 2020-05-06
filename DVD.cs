@@ -17,12 +17,13 @@ namespace BlockBuster
 
         public override void Play()
         {
-            int pick = 0;
             int cont = 0;
             int valid = 0;
             string input = "";
+            int pick = 0;
             while (cont == 0)
             {
+                valid = 0;
                 while (valid == 0)
                 {
                     PrintScenes();
@@ -30,8 +31,10 @@ namespace BlockBuster
                      input = Console.ReadLine();
                     try
                     {
+                         pick = 0;
                         pick = int.Parse(input);
                         valid = 1;
+                        cont = 0;
                     }
                     catch (FormatException)
                     {
@@ -43,13 +46,17 @@ namespace BlockBuster
                 {
                     foreach (string scenez in Scenes)
                     {
-                        if (pick <= Scenes.Count)
+                        try
                         {
                             string scene = Scenes[pick - 1];
                             Console.WriteLine(scene);
                             pick++;
-
                         }
+                        catch(ArgumentException)
+                        {
+                            break;
+                        }
+                        
                     }
                 }
                 Console.WriteLine("Watch another scene? (y/n)");
